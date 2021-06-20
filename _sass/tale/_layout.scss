@@ -81,12 +81,28 @@ footer,
 }
 
 footer {
-  font-family: $serif-secondary;
+  // font-family: $serif-secondary;
   padding: 2rem 0;
   text-align: center;
 
-  span {
+  div {
+    font-family: Arial, "Times New Roman";
     color: $default-color;
-    font-size: .8rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+  }
+
+  .accounts {
+    margin-top: 10px;
+    a {
+        margin-right: 24px;
+        svg {
+            fill: $default-tint;
+            width: 20px;
+        }
+    }
+    a:hover {
+        opacity: .6;
+    }
   }
 }
