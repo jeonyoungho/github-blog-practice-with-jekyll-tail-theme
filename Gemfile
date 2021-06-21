@@ -13,8 +13,7 @@ source "https://rubygems.org"
 # gem "github-pages", group: :jekyll_plugins
 
 # To upgrade, run `bundle update`.
-
-gem "jekyll"
+# gem "jekyll"
 gem "tale"
 
 # The following plugins are automatically loaded by the theme-gem:
